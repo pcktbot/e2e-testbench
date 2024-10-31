@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye
 
 WORKDIR /usr/src/app
 

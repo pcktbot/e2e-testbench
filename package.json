@@ -1,7 +1,9 @@
 {
   "name": "e2e-testbench",
-  "module": "index.js",
-  "type": "module",
+  "scripts": {
+    "test": "bun run jest",
+    "dev": "bun run ./entry.js"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "jest": "^29.7.0",
@@ -9,5 +11,9 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.7.1"
   }
 }

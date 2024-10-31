@@ -1,7 +1,3 @@
-const puppeteer = require('puppeteer');
-const jest = require('jest');
-const jestPuppeteer = require('jest-puppeteer');
+import runner from './browser';
 
-console.log(puppeteer, jest, jestPuppeteer);
-
-
+runner();
